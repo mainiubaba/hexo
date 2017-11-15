@@ -187,7 +187,7 @@ describe('Hexo', () => {
       callback();
     });
 
-    return hexo.exit({foo: 'bar'});
+    hexo.exit({foo: 'bar'});
   });
 
   it('draft visibility', () => Post.insert([
